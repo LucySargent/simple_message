@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body {
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+  background-color: rgb(156, 239, 241);
+  font-family: 'Ubuntu Mono', monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.message {
+  display: flex;
+  flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.messageButton {
+  width:50%;
+  height: 50px;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+  border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Counter {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(238, 180, 103);
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 36px;
 }
 
-.App-link {
-  color: #61dafb;
+.counterFunc {
+  display: flex;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.counterButton {
+  height: 75px;
+  width: 75px;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 36px;
+  margin: 10px;
+  margin-top: 0px;
+  border-style: solid;
+  border-color: black;
+}
+
+h1, h2 {
+  color: black;
 }
